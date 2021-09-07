@@ -25,6 +25,9 @@ class MessagesList extends Component {
 
     return (
       <>
+      <div className="messages-list-header">
+          <span>Please select the message you would like to use by clicking on one of the options below.</span>
+      </div>
         <div className="messages-list-container">
           <Message data={welcomeMessage} />
           <Message data={thankyouMessage} />

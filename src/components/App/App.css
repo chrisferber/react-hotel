@@ -74,6 +74,10 @@ table {
   font-weight: 600;
 }
 
+.messages-list-header {
+  margin: 20px 0;
+}
+
 .messages-list-container {
   margin: 30px 10px;
   display: flex;
